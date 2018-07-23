@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="stanford-corenlp-3.9.1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../stanford-corenlp-3.9.1.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/stanford-english-kbp-corenlp-models-current.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <jarDirectory url="jar://$USER_HOME$/Downloads/stanford-english-kbp-corenlp-models-current.jar!/" recursive="false" />
+  </library>
+</component>
