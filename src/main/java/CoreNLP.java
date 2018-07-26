@@ -10,7 +10,7 @@ import edu.stanford.nlp.util.CoreMap;
 import org.ejml.simple.SimpleMatrix;
 import java.util.Properties;
 
-public class CoreNlpExample {
+public class CoreNLP {
     static StanfordCoreNLP pipeline;
 
     public static void init() {

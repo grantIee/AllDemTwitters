@@ -1,10 +1,18 @@
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 
-public class trial {
+public class SentimentSingleSentences {
 
     public static void main(String[] args) {
         ArrayList<String> sents = new ArrayList<String>();
+
+        /**
+         * 0 - Very Negative
+         * 1 - Negative
+         * 2 - Neutral
+         * 3 - Positive
+         * 4 - Very Positive
+         */
+
         sents.add("Feels like a calm before a storm");
         sents.add("I let them delete my wallet and to their amazement I restored all my Bitcoin Cash within seconds.");
         sents.add("No need to call a bank and wait on hold, no loss of funds!");
@@ -15,9 +23,9 @@ public class trial {
         sents.add("CME reported that BTC futures average daily volume is up 93 percent in Q2 over Q1, open interest increased by 58 percent");
         sents.add("I know that a Bitcoin bear market sucks but at least I hope you didn't buy $XRP at $3, $TRX at $0.2 or $BCH at $3700.");
         sents.add("Boutta invest in bitcoin before it get more hype");
-        CoreNlpExample.init();
+        CoreNLP.init();
         for (String sent : sents) {
-            System.out.println(sent + " : " + CoreNlpExample.getSentiment(sent));
+            System.out.println(sent + " : " + CoreNLP.getSentiment(sent));
         }
     }
 }

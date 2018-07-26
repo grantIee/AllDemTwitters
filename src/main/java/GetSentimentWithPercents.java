@@ -1,6 +1,6 @@
 import java.io.IOException;
 
-public class trial2 {
+public class GetSentimentWithPercents {
 
     public static void main(String[] args) throws IOException {
 
